@@ -1,0 +1,136 @@
+/* General Styling */
+
+body{
+	background: #eee;
+	font-family: Verdana;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 800px;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+/* Span tag */
+
+span{
+	color: blue;
+	font-style: italic;
+}
+
+/* Headings */
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+/* Naviation */
+
+.navigation{
+	background: #000;
+	text-align: center;
+	position: fixed; /* Fixed positioning at the top of the page */
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li{
+	display: inline-block;
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navigation li a:hover{
+	background: #888;
+}
+
+/* Doge logo in the nav */
+
+#doge-logo{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 30px;
+}
+
+#doge-logo img{
+	max-width: 100%;
+}
+
+#doge {
+	width: 100%;
+}
+
+/* Links */
+
+a{
+	color: red;
+}
+
+/* Columns */
+
+.column{
+	width: 40%;
+	display: inline-block;
+	background: #ddd;
+	padding: 20px 3%;
+	margin-right: 2%;
+}
+
+/* Spans in columns -- overrides previous span tag */
+
+.column span{
+	color: green;
+}
+
+
+/* Example of relative + absolute positioning */
+/* Doge image from front page */
+
+.doge-wrap{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	width: 25%;
+}
+
+#doge-caption{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+/* Box in Contact Page */
+
+.box{
+	text-align: center;
+	background: #ddd;
+	padding: 20px;
+	border: 1px solid #aaa;
+}
+
+.center{
+	text-align: center;
+}
+
+/* Bagel doge */
+
